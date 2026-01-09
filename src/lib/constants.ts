@@ -138,7 +138,7 @@ export const CONTACT_LINKS: ContactLink[] = [
 ]
 
 export const HERO_DATA = {
-  name: 'あなたの名前',
+  name: 'Kotaro Wakatsuki',
   title: 'Frontend Developer',
   description: 'モダンなWebアプリケーション開発を専門とするフロントエンドデベロッパーです。ユーザー体験を重視した、美しく使いやすいインターフェースの構築に情熱を注いでいます。',
   avatar: '/images/avatar.jpg',
