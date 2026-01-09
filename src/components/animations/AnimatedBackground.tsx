@@ -4,7 +4,25 @@ import { motion } from 'framer-motion'
 
 export default function AnimatedBackground() {
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460]">
+    <div className="fixed inset-0 -z-10 overflow-hidden">
+      {/* 動くグラデーション背景 */}
+      <motion.div
+        className="absolute inset-0"
+        animate={{
+          background: [
+            'linear-gradient(120deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+            'linear-gradient(240deg, #16213e 0%, #0f3460 50%, #1a1a2e 100%)',
+            'linear-gradient(360deg, #0f3460 0%, #1a1a2e 50%, #16213e 100%)',
+            'linear-gradient(120deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+          ],
+        }}
+        transition={{
+          duration: 15,
+          repeat: Infinity,
+          ease: 'linear',
+        }}
+      />
+
       {/* グラデーションブロブ1 */}
       <motion.div
         className="absolute w-[600px] h-[600px] rounded-full opacity-30 blur-3xl"
