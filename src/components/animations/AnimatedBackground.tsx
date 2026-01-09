@@ -5,21 +5,56 @@ import { motion } from 'framer-motion'
 export default function AnimatedBackground() {
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden">
-      {/* 動くグラデーション背景 */}
+      {/* ベース背景 */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460]" />
+
+      {/* 動くグラデーションレイヤー1 */}
       <motion.div
         className="absolute inset-0"
+        style={{
+          background: 'linear-gradient(120deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+        }}
         animate={{
-          background: [
-            'linear-gradient(120deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-            'linear-gradient(240deg, #16213e 0%, #0f3460 50%, #1a1a2e 100%)',
-            'linear-gradient(360deg, #0f3460 0%, #1a1a2e 50%, #16213e 100%)',
-            'linear-gradient(120deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-          ],
+          opacity: [0, 0.5, 0],
         }}
         transition={{
-          duration: 15,
+          duration: 10,
           repeat: Infinity,
-          ease: 'linear',
+          ease: 'easeInOut',
+        }}
+      />
+
+      {/* 動くグラデーションレイヤー2 */}
+      <motion.div
+        className="absolute inset-0"
+        style={{
+          background: 'linear-gradient(240deg, #16213e 0%, #0f3460 50%, #1a1a2e 100%)',
+        }}
+        animate={{
+          opacity: [0, 0.5, 0],
+        }}
+        transition={{
+          duration: 10,
+          repeat: Infinity,
+          ease: 'easeInOut',
+          delay: 3.33,
+        }}
+      />
+
+      {/* 動くグラデーションレイヤー3 */}
+      <motion.div
+        className="absolute inset-0"
+        style={{
+          background: 'linear-gradient(0deg, #0f3460 0%, #1a1a2e 50%, #16213e 100%)',
+        }}
+        animate={{
+          opacity: [0, 0.5, 0],
+        }}
+        transition={{
+          duration: 10,
+          repeat: Infinity,
+          ease: 'easeInOut',
+          delay: 6.66,
         }}
       />
 
