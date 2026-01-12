@@ -25,7 +25,7 @@ export default function HeroSection() {
               transition={{ delay: 0.2 }}
               className="text-purple-400 text-lg mb-4"
             >
-              👋 こんにちは、
+              Welcome 👋
             </motion.p>
 
             <motion.h1

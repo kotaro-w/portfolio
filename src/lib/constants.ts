@@ -131,15 +131,13 @@ export const PROJECTS: Project[] = [
 ]
 
 export const CONTACT_LINKS: ContactLink[] = [
-  { name: 'Email', url: 'mailto:contact@example.com', icon: 'mail' },
-  { name: 'GitHub', url: 'https://github.com/example', icon: 'github' },
-  { name: 'Twitter', url: 'https://twitter.com/example', icon: 'twitter' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/example', icon: 'linkedin' },
+  { name: 'Email', url: 'mailto:kw0504@techbiz.com', icon: 'mail' },
+  { name: 'Instagram', url: 'https://www.instagram.com/it_zukai_sekai/', icon: 'Instagram' },
 ]
 
 export const HERO_DATA = {
-  name: 'Kotarooo Wakatsuki',
-  title: 'Frontend Developer',
-  description: 'モダンなWebアプリケーション開発を専門とするフロントエンドデベロッパーです。ユーザー体験を重視した、美しく使いやすいインターフェースの構築に情熱を注いでいます。',
+  name: 'Kotaro Wakatsuki',
+  title: 'IT Career Advisor',
+  description: 'IT業界で働くエンジニア向けにフリーランスの案件紹介や独立支援を行っています。チームで200名以上のエンジニアの稼働をサポート中。',
   avatar: '/images/avatar.jpg',
 }
