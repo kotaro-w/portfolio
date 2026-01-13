@@ -31,20 +31,20 @@ export const SKILLS: Skills[] = [
 export const EXPERIENCES: Experience[] = [
   {
     id: '1',
-    company: 'Tech Company A',
-    position: 'Senior Frontend Developer',
-    period: '2026/1 - 現在',
+    company: 'Sole Proprietor',
+    position: 'IT Career Advisor',
+    period: '2026/1 -',
     description: [
       '大規模Webアプリケーションの設計・開発をリード',
       'Next.js + TypeScriptを用いた高速なSPA構築',
       'デザインシステムの構築とコンポーネントライブラリの整備',
       'パフォーマンス最適化により、ページ読み込み速度を40%改善',
     ],
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    technologies: ['ITキャリア支援', '転職相談', 'フリーランス案件紹介', 'iOS/Webアプリ開発'],
   },
   {
     id: '2',
-    company: 'Startup B',
+    company: 'NTT DATA Japan Corporation',
     position: 'Software Engineer',
     period: '2021/4 - 2025/12',
     description: [
@@ -53,7 +53,7 @@ export const EXPERIENCES: Experience[] = [
       'パフォーマンス最適化とアクセシビリティ改善',
       'GitHubを使ったチーム開発とコードレビュー',
     ],
-    technologies: ['React', 'TypeScript', 'Redux', 'Material-UI'],
+    technologies: ['プロジェクト管理', '品質管理', 'PM/PMO', '金融システム開発'],
   },
   {
     id: '3',
@@ -66,7 +66,6 @@ export const EXPERIENCES: Experience[] = [
       'WordPressを使ったCMS構築',
       'クライアントとの要件定義と提案',
     ],
-    technologies: ['HTML', 'CSS', 'JavaScript', 'WordPress', 'PHP'],
   },
   {
     id: '4',
@@ -79,7 +78,6 @@ export const EXPERIENCES: Experience[] = [
       'WordPressを使ったCMS構築',
       'クライアントとの要件定義と提案',
     ],
-    technologies: ['HTML', 'CSS', 'JavaScript', 'WordPress', 'PHP'],
   },
 ]
 
