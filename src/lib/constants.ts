@@ -1,31 +1,29 @@
-import { Skills, Experience, Project, ContactLink } from '@/types'
+import { Like, Experience, Project, ContactLink } from '@/types'
 
-export const SKILLS: Skills[] = [
-  // Frontend
-  { name: 'React', category: 'frontend', level: 5 },
-  { name: 'Next.js', category: 'frontend', level: 5 },
-  { name: 'TypeScript', category: 'frontend', level: 4 },
-  { name: 'JavaScript', category: 'frontend', level: 5 },
-  { name: 'Tailwind CSS', category: 'frontend', level: 5 },
-  { name: 'Framer Motion', category: 'frontend', level: 4 },
-  { name: 'HTML/CSS', category: 'frontend', level: 5 },
-  { name: 'Vue.js', category: 'frontend', level: 3 },
+export const LIKES: Like[] = [
+  // Hobbies（趣味）
+  { name: 'サッカー', category: 'hobbies' },
+  { name: '旅行', category: 'hobbies' },
+  { name: '読書', category: 'hobbies' },
+  { name: 'キャンプ', category: 'hobbies' },
+  { name: '写真撮影', category: 'hobbies' },
+  { name: 'ランニング', category: 'hobbies' },
 
-  // Backend
-  { name: 'Node.js', category: 'backend', level: 4 },
-  { name: 'Express', category: 'backend', level: 4 },
-  { name: 'Python', category: 'backend', level: 3 },
-  { name: 'PostgreSQL', category: 'backend', level: 3 },
-  { name: 'MongoDB', category: 'backend', level: 3 },
-  { name: 'REST API', category: 'backend', level: 4 },
+  // Entertainment（エンタメ）
+  { name: '映画鑑賞', category: 'entertainment' },
+  { name: '音楽', category: 'entertainment' },
+  { name: 'ゲーム', category: 'entertainment' },
+  { name: 'アニメ', category: 'entertainment' },
+  { name: 'Netflix', category: 'entertainment' },
+  { name: 'YouTube', category: 'entertainment' },
 
-  // Tools
-  { name: 'Git', category: 'tools', level: 5 },
-  { name: 'GitHub', category: 'tools', level: 5 },
-  { name: 'Docker', category: 'tools', level: 3 },
-  { name: 'VS Code', category: 'tools', level: 5 },
-  { name: 'Figma', category: 'tools', level: 4 },
-  { name: 'Vercel', category: 'tools', level: 4 },
+  // Food & Drink（食べ物）
+  { name: 'コーヒー', category: 'food' },
+  { name: 'ラーメン', category: 'food' },
+  { name: '寿司', category: 'food' },
+  { name: 'カレー', category: 'food' },
+  { name: 'クラフトビール', category: 'food' },
+  { name: 'スイーツ', category: 'food' },
 ]
 
 export const EXPERIENCES: Experience[] = [

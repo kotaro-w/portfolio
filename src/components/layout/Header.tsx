@@ -6,8 +6,8 @@ import { scrollToSection } from '@/lib/utils'
 
 const navItems = [
   { name: 'Home', href: 'hero' },
-  { name: 'Skills', href: 'skills' },
   { name: 'Experience', href: 'experience' },
+  { name: 'Likes', href: 'likes' },
   { name: 'Projects', href: 'projects' },
   { name: 'Contact', href: 'contact' },
 ]

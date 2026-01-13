@@ -4,6 +4,11 @@ export interface Skills {
   level?: number // 1-5
 }
 
+export interface Like {
+  name: string
+  category: 'hobbies' | 'entertainment' | 'food'
+}
+
 export interface Experience {
   id: string
   company: string
