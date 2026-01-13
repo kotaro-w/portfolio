@@ -13,7 +13,7 @@ export default function PartnersSection() {
             <span className="gradient-text">Partners</span>
           </h2>
           <p className="text-gray-300 text-center mb-16 max-w-2xl mx-auto">
-            私が関わっているスクールや組織をご紹介します。
+            私が関わっている組織やスクールをご紹介します。
           </p>
         </ScrollReveal>
 

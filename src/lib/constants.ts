@@ -98,6 +98,22 @@ export const PARTNERS: Partner[] = [
     tags: ['IT企業', 'エンジニア支援', 'キャリア'],
     featured: true,
   },
+  {
+    id: '4',
+    name: '合同会社STREAMLINE',
+    description: '日本に優秀なITエンジニアを増やすことを目指し、キャリアコーチング・資格取得コーチング・副業コーチングを提供しています。',
+    url: 'https://streamline0213.co.jp/',
+    tags: ['キャリア支援', 'コーチング', 'エンジニア育成'],
+    featured: true,
+  },
+  {
+    id: '5',
+    name: '株式会社テックビズ',
+    description: 'ITフリーランスエンジニア向けの案件紹介・独立支援サービスを提供。エンジニアのキャリアアップをサポートしています。',
+    url: 'https://techbiz.com/',
+    tags: ['フリーランス', '案件紹介', '独立支援'],
+    featured: true,
+  },
 ]
 
 export const CONTACT_LINKS: ContactLink[] = [

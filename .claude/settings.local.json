@@ -5,7 +5,9 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "WebFetch(domain:shiftb.dev)",
-      "WebFetch(domain:www.bremch.co.jp)"
+      "WebFetch(domain:www.bremch.co.jp)",
+      "WebFetch(domain:streamline0213.co.jp)",
+      "WebFetch(domain:techbiz.com)"
     ]
   }
 }
