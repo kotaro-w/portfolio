@@ -90,6 +90,14 @@ export const PARTNERS: Partner[] = [
     tags: ['React', 'Next.js', 'TypeScript'],
     featured: true,
   },
+  {
+    id: '3',
+    name: '合同会社Bremch',
+    description: 'ITを活用してエンジニアに「居場所」を提供。勇気・寄り添い・技術と挑戦を大切に、自分らしく挑戦し続けられる環境づくりを行っています。',
+    url: 'https://www.bremch.co.jp/',
+    tags: ['IT企業', 'エンジニア支援', 'キャリア'],
+    featured: true,
+  },
 ]
 
 export const CONTACT_LINKS: ContactLink[] = [
