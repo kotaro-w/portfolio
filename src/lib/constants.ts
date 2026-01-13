@@ -1,4 +1,4 @@
-import { Like, Experience, Project, ContactLink } from '@/types'
+import { Like, Experience, Partner, ContactLink } from '@/types'
 
 export const LIKES: Like[] = [
   // Hobbies（趣味）
@@ -73,59 +73,53 @@ export const EXPERIENCES: Experience[] = [
   },
 ]
 
-export const PROJECTS: Project[] = [
+export const PARTNERS: Partner[] = [
   {
     id: '1',
-    title: 'E-Commerce Platform',
-    description: '最新技術を用いたモダンなECサイト。決済、在庫管理、レビューシステムを実装し、スムーズなショッピング体験を提供。',
-    image: '/images/placeholder-project.jpg',
-    technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Prisma'],
-    githubUrl: 'https://github.com',
+    name: 'TechAcademy',
+    description: '現役エンジニアのサポートで実践的なプログラミングスキルを習得できるオンラインスクール。',
+    url: 'https://techacademy.jp',
+    tags: ['プログラミングスクール', 'オンライン学習', 'メンタリング'],
     featured: true,
   },
   {
     id: '2',
-    title: 'Task Management App',
-    description: 'チーム向けタスク管理アプリケーション。リアルタイム同期、ドラッグ&ドロップ対応で、直感的なタスク管理を実現。',
-    image: '/images/placeholder-project.jpg',
-    technologies: ['React', 'Firebase', 'Tailwind CSS', 'Framer Motion'],
-    githubUrl: 'https://github.com',
+    name: 'DMM WEBCAMP',
+    description: '未経験から最短3ヶ月でITエンジニアを目指せる転職保証付きプログラミングスクール。',
+    url: 'https://web-camp.io',
+    tags: ['転職支援', 'プログラミングスクール', 'キャリアサポート'],
     featured: true,
   },
   {
     id: '3',
-    title: 'Portfolio Website',
-    description: '動きのあるリッチなポートフォリオサイト。グラデーションアニメーション背景とglassmorphismデザインが特徴。',
-    image: '/images/placeholder-project.jpg',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-    githubUrl: 'https://github.com',
-    featured: false,
+    name: 'RUNTEQ',
+    description: 'Webエンジニア育成に特化した実践型プログラミングスクール。現場で通用する開発力を養成。',
+    url: 'https://runteq.jp',
+    tags: ['Webエンジニア', 'Ruby on Rails', '実践型'],
+    featured: true,
   },
   {
     id: '4',
-    title: 'Weather Dashboard',
-    description: '天気情報をビジュアルに表示するダッシュボード。複数都市の天気を一覧表示し、詳細な予報データを提供。',
-    image: '/images/placeholder-project.jpg',
-    technologies: ['React', 'TypeScript', 'Chart.js', 'OpenWeather API'],
-    githubUrl: 'https://github.com',
+    name: 'Progate',
+    description: 'イラスト中心のスライドで基礎からプログラミングを学べるオンライン学習サービス。',
+    url: 'https://prog-8.com',
+    tags: ['初心者向け', 'オンライン学習', '基礎学習'],
     featured: false,
   },
   {
     id: '5',
-    title: 'Blog Platform',
-    description: 'マークダウン対応のブログプラットフォーム。シンタックスハイライト、タグ検索、レスポンシブデザインを実装。',
-    image: '/images/placeholder-project.jpg',
-    technologies: ['Next.js', 'MDX', 'Tailwind CSS'],
-    githubUrl: 'https://github.com',
+    name: 'Udemy',
+    description: '世界最大級のオンライン学習プラットフォーム。多様なプログラミングコースを提供。',
+    url: 'https://www.udemy.com',
+    tags: ['オンライン学習', '動画講座', 'グローバル'],
     featured: false,
   },
   {
     id: '6',
-    title: 'Chat Application',
-    description: 'リアルタイムチャットアプリケーション。プライベートメッセージ、グループチャット、ファイル共有機能を搭載。',
-    image: '/images/placeholder-project.jpg',
-    technologies: ['Next.js', 'Socket.io', 'MongoDB', 'Tailwind CSS'],
-    githubUrl: 'https://github.com',
+    name: 'paiza',
+    description: 'プログラミングスキルを可視化し、IT企業とのマッチングを支援する転職プラットフォーム。',
+    url: 'https://paiza.jp',
+    tags: ['転職支援', 'スキル診断', 'IT企業'],
     featured: false,
   },
 ]

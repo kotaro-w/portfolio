@@ -29,6 +29,16 @@ export interface Project {
   featured?: boolean
 }
 
+export interface Partner {
+  id: string
+  name: string
+  description: string
+  url: string
+  image?: string
+  tags?: string[]
+  featured?: boolean
+}
+
 export interface ContactLink {
   name: string
   url: string

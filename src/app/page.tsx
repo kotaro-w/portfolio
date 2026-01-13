@@ -3,7 +3,7 @@ import Header from '@/components/layout/Header'
 import HeroSection from '@/components/sections/HeroSection'
 import ExperienceSection from '@/components/sections/ExperienceSection'
 import LikesSection from '@/components/sections/LikesSection'
-import ProjectsSection from '@/components/sections/ProjectsSection'
+import PartnersSection from '@/components/sections/PartnersSection'
 import ContactSection from '@/components/sections/ContactSection'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSection />
       <ExperienceSection />
       <LikesSection />
-      <ProjectsSection />
+      <PartnersSection />
       <ContactSection />
     </main>
   )
