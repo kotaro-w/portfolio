@@ -82,6 +82,14 @@ export const PARTNERS: Partner[] = [
     tags: ['デザインスクール', 'Webデザイン', 'UIデザイン'],
     featured: true,
   },
+  {
+    id: '2',
+    name: 'ShiftB',
+    description: 'React、Next.js、TypeScript特化型Webアプリ開発スクール。オリジナルアプリ開発と実務体験課題で本当の実践力が身につきます。',
+    url: 'https://shiftb.dev/',
+    tags: ['React', 'Next.js', 'TypeScript'],
+    featured: true,
+  },
 ]
 
 export const CONTACT_LINKS: ContactLink[] = [
