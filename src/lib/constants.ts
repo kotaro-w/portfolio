@@ -33,7 +33,7 @@ export const EXPERIENCES: Experience[] = [
     id: '1',
     company: 'Tech Company A',
     position: 'Senior Frontend Developer',
-    period: '2022年4月 - 現在',
+    period: '2026/1 - 現在',
     description: [
       '大規模Webアプリケーションの設計・開発をリード',
       'Next.js + TypeScriptを用いた高速なSPA構築',
@@ -45,8 +45,8 @@ export const EXPERIENCES: Experience[] = [
   {
     id: '2',
     company: 'Startup B',
-    position: 'Frontend Developer',
-    period: '2020年4月 - 2022年3月',
+    position: 'Software Engineer',
+    period: '2021/4 - 2025/12',
     description: [
       'React/TypeScriptを用いたWebアプリケーション開発',
       'レスポンシブデザインの実装とモバイル最適化',
@@ -57,9 +57,9 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     id: '3',
-    company: 'Web Agency C',
+    company: 'The University of Tokyo',
     position: 'Graduate student',
-    period: '2018年4月 - 2020年3月',
+    period: '2019/4 - 2021/3',
     description: [
       '企業サイトやLPの制作・運用',
       'HTML/CSS/JavaScriptによるフロントエンド開発',
@@ -70,9 +70,9 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     id: '4',
-    company: 'Web Agency C',
+    company: 'Tokyo University of Science',
     position: 'Undergraduate student',
-    period: '2018年4月 - 2020年3月',
+    period: '2015/4 - 2019/3',
     description: [
       '企業サイトやLPの制作・運用',
       'HTML/CSS/JavaScriptによるフロントエンド開発',
@@ -91,7 +91,6 @@ export const PROJECTS: Project[] = [
     image: '/images/placeholder-project.jpg',
     technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Prisma'],
     githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
     featured: true,
   },
   {
@@ -110,7 +109,6 @@ export const PROJECTS: Project[] = [
     image: '/images/placeholder-project.jpg',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
     featured: false,
   },
   {
@@ -129,7 +127,6 @@ export const PROJECTS: Project[] = [
     image: '/images/placeholder-project.jpg',
     technologies: ['Next.js', 'MDX', 'Tailwind CSS'],
     githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
     featured: false,
   },
   {

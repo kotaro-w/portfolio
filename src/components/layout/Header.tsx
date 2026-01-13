@@ -5,11 +5,11 @@ import { motion } from 'framer-motion'
 import { scrollToSection } from '@/lib/utils'
 
 const navItems = [
-  { name: 'ホーム', href: 'hero' },
-  { name: 'スキル', href: 'skills' },
-  { name: '経歴', href: 'experience' },
-  { name: '実績', href: 'projects' },
-  { name: '連絡先', href: 'contact' },
+  { name: 'Home', href: 'hero' },
+  { name: 'Skills', href: 'skills' },
+  { name: 'Experience', href: 'experience' },
+  { name: 'Projects', href: 'projects' },
+  { name: 'Contact', href: 'contact' },
 ]
 
 export default function Header() {
