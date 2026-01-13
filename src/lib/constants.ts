@@ -1,6 +1,6 @@
-import { Skill, Experience, Project, ContactLink } from '@/types'
+import { Likes, Experience, Project, ContactLink } from '@/types'
 
-export const SKILLS: Skill[] = [
+export const SKILLS: Likes[] = [
   // Frontend
   { name: 'React', category: 'frontend', level: 5 },
   { name: 'Next.js', category: 'frontend', level: 5 },
@@ -58,7 +58,20 @@ export const EXPERIENCES: Experience[] = [
   {
     id: '3',
     company: 'Web Agency C',
-    position: 'Web Developer',
+    position: 'Graduate student',
+    period: '2018年4月 - 2020年3月',
+    description: [
+      '企業サイトやLPの制作・運用',
+      'HTML/CSS/JavaScriptによるフロントエンド開発',
+      'WordPressを使ったCMS構築',
+      'クライアントとの要件定義と提案',
+    ],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'WordPress', 'PHP'],
+  },
+  {
+    id: '4',
+    company: 'Web Agency C',
+    position: 'Undergraduate student',
     period: '2018年4月 - 2020年3月',
     description: [
       '企業サイトやLPの制作・運用',
@@ -138,6 +151,6 @@ export const CONTACT_LINKS: ContactLink[] = [
 export const HERO_DATA = {
   name: 'Kotaro Wakatsuki',
   title: 'IT Career Advisor',
-  description: 'IT業界で働くエンジニア向けにフリーランスの案件紹介や独立支援を行っています。チームで200名以上のエンジニアの稼働をサポート中。',
+  description: 'IT業界で働くエンジニア向けにフリーランスの案件紹介や独立支援を行っています。チームで200名以上のエンジニアの稼働をサポート中です。',
   avatar: '/images/avatar.jpg',
 }

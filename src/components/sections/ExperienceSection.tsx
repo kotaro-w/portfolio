@@ -15,7 +15,7 @@ export default function ExperienceSection() {
             <span className="gradient-text">Experience</span>
           </h2>
           <p className="text-gray-300 text-center mb-16 max-w-2xl mx-auto">
-            これまでの職歴と経験です
+            これまでの職歴と経験です。
           </p>
         </ScrollReveal>
 

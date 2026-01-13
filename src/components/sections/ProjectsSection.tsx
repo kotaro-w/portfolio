@@ -13,7 +13,7 @@ export default function ProjectsSection() {
             <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-gray-300 text-center mb-16 max-w-2xl mx-auto">
-            これまでに制作したプロジェクトの一部です
+            これまでに制作したプロジェクトの一部です。
           </p>
         </ScrollReveal>
 

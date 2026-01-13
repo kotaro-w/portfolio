@@ -10,6 +10,7 @@ const iconMap: Record<string, string> = {
   github: '💻',
   twitter: '🐦',
   linkedin: '💼',
+  Instagram: '📸',
 }
 
 export default function ContactSection() {
@@ -21,7 +22,7 @@ export default function ContactSection() {
             <span className="gradient-text">Contact</span>
           </h2>
           <p className="text-gray-300 text-center mb-16 max-w-2xl mx-auto">
-            お気軽にご連絡ください。お仕事のご依頼やご質問をお待ちしております
+            お気軽にご連絡ください！お仕事のご依頼やご質問をお待ちしております。
           </p>
         </ScrollReveal>
 
