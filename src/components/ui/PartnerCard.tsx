@@ -14,9 +14,11 @@ export default function PartnerCard({ partner }: PartnerCardProps) {
   const [imageError, setImageError] = useState(false)
 
   // Microlink APIを使ってURLからスクリーンショットを取得
+  // screenshot.delay: ページロード後の待機時間（ミリ秒）
+  // screenshot.waitUntil: networkidle0 = ネットワークが完全にアイドルになるまで待つ
   const thumbnailUrl = partner.image
     ? partner.image
-    : `https://api.microlink.io/?url=${encodeURIComponent(partner.url)}&screenshot=true&meta=false&embed=screenshot.url`
+    : `https://api.microlink.io/?url=${encodeURIComponent(partner.url)}&screenshot=true&meta=false&embed=screenshot.url&screenshot.delay=3000&screenshot.waitUntil=networkidle0`
 
   return (
     <motion.a
