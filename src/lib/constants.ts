@@ -1,6 +1,6 @@
-import { Likes, Experience, Project, ContactLink } from '@/types'
+import { Skills, Experience, Project, ContactLink } from '@/types'
 
-export const SKILLS: Likes[] = [
+export const SKILLS: Skills[] = [
   // Frontend
   { name: 'React', category: 'frontend', level: 5 },
   { name: 'Next.js', category: 'frontend', level: 5 },

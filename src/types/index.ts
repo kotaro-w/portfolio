@@ -1,4 +1,4 @@
-export interface Skill {
+export interface Skills {
   name: string
   category: 'frontend' | 'backend' | 'tools' | 'other'
   level?: number // 1-5

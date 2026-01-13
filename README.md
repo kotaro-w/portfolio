@@ -20,7 +20,7 @@
 ## セクション
 
 1. **Hero** - 自己紹介
-2. **Skills** - 技術スタック
+2. **Skills** - 好きなもの
 3. **Experience** - 職歴・経歴
 4. **Projects** - 制作実績
 5. **Contact** - 連絡先
