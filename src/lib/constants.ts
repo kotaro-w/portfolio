@@ -48,10 +48,10 @@ export const EXPERIENCES: Experience[] = [
     position: 'Software Engineer',
     period: '2021/4 - 2025/12',
     description: [
-      'React/TypeScriptを用いたWebアプリケーション開発',
-      'レスポンシブデザインの実装とモバイル最適化',
-      'パフォーマンス最適化とアクセシビリティ改善',
-      'GitHubを使ったチーム開発とコードレビュー',
+      '日本最大規模の金融システムの企画検討、要件定義、品質管理',
+      '決済システムの品質マネジメントに関するコンサルティング',
+      'ECサイト開発の試験計画立案とバグ分析',
+      '大規模会計システムの進捗管理、課題管理',
     ],
     technologies: ['プロジェクト管理', '品質管理', 'PM/PMO', '金融システム開発'],
   },
@@ -62,9 +62,6 @@ export const EXPERIENCES: Experience[] = [
     period: '2019/4 - 2021/3',
     description: [
       '企業サイトやLPの制作・運用',
-      'HTML/CSS/JavaScriptによるフロントエンド開発',
-      'WordPressを使ったCMS構築',
-      'クライアントとの要件定義と提案',
     ],
   },
   {
@@ -74,9 +71,6 @@ export const EXPERIENCES: Experience[] = [
     period: '2015/4 - 2019/3',
     description: [
       '企業サイトやLPの制作・運用',
-      'HTML/CSS/JavaScriptによるフロントエンド開発',
-      'WordPressを使ったCMS構築',
-      'クライアントとの要件定義と提案',
     ],
   },
 ]
