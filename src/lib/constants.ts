@@ -12,6 +12,7 @@ export const LIKES: Like[] = [
   { name: 'ディズニー巡り｜残すはパリのみ', category: 'entertainment' },
   { name: '洋画鑑賞｜伏線が多い映画が好み', category: 'entertainment' },
   { name: 'ポーカー｜大型大会も出場中', category: 'entertainment' },
+  { name: '麻雀｜麻雀記事の執筆経験あり', category: 'entertainment' },
 
   // Food & Drink（食べ物）
   { name: 'ラーメン', category: 'food' },
@@ -119,7 +120,7 @@ export const CONTACT_LINKS: ContactLink[] = [
 export const HERO_DATA = {
   name: 'Kotaro Wakatsuki',
   title: 'IT Career Advisor',
-  description: 'IT業界で働くエンジニア向けにフリーランスの案件紹介や独立支援を行っています。チームで200名以上のエンジニアの稼働をサポート中です。',
+  description: 'エージェントとエンジニアの二刀流。IT業界で働くエンジニア向けにフリーランスの案件紹介や独立支援を行っています。チームで200名以上のエンジニアの稼働をサポート中です！',
   avatar: '/images/avatar.jpg',
 }
 
