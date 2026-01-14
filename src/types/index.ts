@@ -44,3 +44,11 @@ export interface ContactLink {
   url: string
   icon: string
 }
+
+export interface VisitedCountry {
+  name: string
+  nameJa: string
+  lat: number
+  lng: number
+  year?: number
+}

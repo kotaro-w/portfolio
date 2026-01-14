@@ -1,4 +1,4 @@
-import { Like, Experience, Partner, ContactLink } from '@/types'
+import { Like, Experience, Partner, ContactLink, VisitedCountry } from '@/types'
 
 export const LIKES: Like[] = [
   // Hobbies（趣味）
@@ -127,3 +127,22 @@ export const HERO_DATA = {
   description: 'IT業界で働くエンジニア向けにフリーランスの案件紹介や独立支援を行っています。チームで200名以上のエンジニアの稼働をサポート中です。',
   avatar: '/images/avatar.jpg',
 }
+
+export const VISITED_COUNTRIES: VisitedCountry[] = [
+  // アジア
+  { name: 'Japan', nameJa: '日本', lat: 35.6762, lng: 139.6503 },
+  { name: 'South Korea', nameJa: '韓国', lat: 37.5665, lng: 126.9780 },
+  { name: 'Taiwan', nameJa: '台湾', lat: 25.0330, lng: 121.5654 },
+  { name: 'Thailand', nameJa: 'タイ', lat: 13.7563, lng: 100.5018 },
+  { name: 'Vietnam', nameJa: 'ベトナム', lat: 21.0285, lng: 105.8542 },
+  { name: 'Singapore', nameJa: 'シンガポール', lat: 1.3521, lng: 103.8198 },
+  // ヨーロッパ
+  { name: 'France', nameJa: 'フランス', lat: 48.8566, lng: 2.3522 },
+  { name: 'Italy', nameJa: 'イタリア', lat: 41.9028, lng: 12.4964 },
+  { name: 'Spain', nameJa: 'スペイン', lat: 40.4168, lng: -3.7038 },
+  { name: 'United Kingdom', nameJa: 'イギリス', lat: 51.5074, lng: -0.1278 },
+  // 北米
+  { name: 'United States', nameJa: 'アメリカ', lat: 40.7128, lng: -74.0060 },
+  // オセアニア
+  { name: 'Australia', nameJa: 'オーストラリア', lat: -33.8688, lng: 151.2093 },
+]
