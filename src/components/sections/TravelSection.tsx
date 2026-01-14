@@ -44,7 +44,7 @@ export default function TravelSection() {
         <ScrollReveal delay={0.2}>
           <div className="flex flex-col lg:flex-row items-center gap-8">
             {/* 地球儀 */}
-            <div className="w-full lg:w-2/3 h-[400px] sm:h-[500px] relative">
+            <div className="w-full lg:w-2/3 h-[400px] sm:h-[500px] relative glass rounded-xl overflow-hidden flex items-center justify-center">
               <Globe
                 ref={globeRef}
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
