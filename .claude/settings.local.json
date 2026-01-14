@@ -7,7 +7,8 @@
       "WebFetch(domain:shiftb.dev)",
       "WebFetch(domain:www.bremch.co.jp)",
       "WebFetch(domain:streamline0213.co.jp)",
-      "WebFetch(domain:techbiz.com)"
+      "WebFetch(domain:techbiz.com)",
+      "Bash(git config:*)"
     ]
   }
 }
