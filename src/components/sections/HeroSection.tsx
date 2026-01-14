@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { HERO_DATA } from '@/lib/constants'
 import { scrollToSection } from '@/lib/utils'
 
@@ -95,8 +96,15 @@ export default function HeroSection() {
               }}
               className="relative"
             >
-              <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center text-9xl backdrop-blur-sm border-4 border-white/10">
-                👨‍💻
+              <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center backdrop-blur-sm border-4 border-white/10 overflow-hidden">
+                <Image
+                  src="/images/kw_avatar.png"
+                  alt={HERO_DATA.name}
+                  width={384}
+                  height={384}
+                  className="object-cover w-full h-full"
+                  priority
+                />
               </div>
 
               {/* 装飾的な要素 */}

@@ -5,15 +5,10 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Frontend Developer',
+  title: 'Portfolio | Kotaro Wakatsuki',
   description:
-    'モダンなWebアプリケーション開発を専門とするフロントエンドデベロッパーのポートフォリオサイト',
+    '若槻 光太郎のポートフォリオサイト',
   keywords: [
-    'Web Developer',
-    'Frontend Developer',
-    'React',
-    'Next.js',
-    'TypeScript',
     'Portfolio',
   ],
   authors: [{ name: 'Portfolio' }],
@@ -22,17 +17,17 @@ export const metadata: Metadata = {
     apple: '/kw_favicon.png',
   },
   openGraph: {
-    title: 'Portfolio | Frontend Developer',
+    title: 'Portfolio | Kotaro Wakatsuki',
     description:
-      'モダンなWebアプリケーション開発を専門とするフロントエンドデベロッパーのポートフォリオサイト',
+      '若槻 光太郎のポートフォリオサイト',
     type: 'website',
     locale: 'ja_JP',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Portfolio | Frontend Developer',
+    title: 'Portfolio | Kotaro Wakatsuki',
     description:
-      'モダンなWebアプリケーション開発を専門とするフロントエンドデベロッパーのポートフォリオサイト',
+      '若槻 光太郎のポートフォリオサイト',
   },
 }
 

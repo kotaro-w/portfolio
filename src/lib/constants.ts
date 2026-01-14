@@ -77,7 +77,7 @@ export const PARTNERS: Partner[] = [
   {
     id: '1',
     name: '株式会社テックビズ',
-    description: 'ITフリーランスエンジニア向けの案件紹介・独立支援サービスを提供。エンジニアのキャリアアップをサポートしています。',
+    description: 'ITフリーランスエンジニア向けの案件紹介・独立支援サービスを提供。コンサルタントとしてIT業界の方々のキャリア支援を行っています。',
     url: 'https://techbiz.com/',
     tags: ['フリーランス', '案件紹介', '独立支援'],
     featured: true,
@@ -85,7 +85,7 @@ export const PARTNERS: Partner[] = [
   {
     id: '2',
     name: 'ShiftB',
-    description: 'React、Next.js、TypeScript特化型Webアプリ開発スクール。オリジナルアプリ開発と実務体験課題で本当の実践力が身につきます。',
+    description: 'React、Next.js、TypeScript特化型Webアプリ開発スクール。受講生限定で。',
     url: 'https://shiftb.dev/',
     tags: ['React', 'Next.js', 'TypeScript'],
     featured: true,

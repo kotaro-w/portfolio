@@ -46,7 +46,7 @@ export default function Header() {
             onClick={() => handleNavClick('hero')}
             className="text-2xl font-bold gradient-text"
           >
-            Portfolio
+            Portfolio | Kotaro Wakatsuki
           </button>
 
           {/* デスクトップナビゲーション */}
