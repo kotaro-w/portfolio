@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import ScrollReveal from '@/components/animations/ScrollReveal'
-import Card from '@/components/ui/Card'
 import { CONTACT_LINKS } from '@/lib/constants'
 
 const iconMap: Record<string, string> = {
@@ -24,21 +23,6 @@ export default function ContactSection() {
           <p className="text-gray-300 text-center mb-16 max-w-2xl mx-auto">
             お気軽にご連絡ください！お仕事のご依頼やご質問をお待ちしております。
           </p>
-        </ScrollReveal>
-
-        <ScrollReveal delay={0.2}>
-          <Card hover={false} className="mb-12">
-            <div className="text-center">
-              <h3 className="text-2xl font-bold text-white mb-4">
-                Let&apos;s work together!
-              </h3>
-              <p className="text-gray-300 mb-6">
-                新しいプロジェクトやコラボレーションの機会をお探しですか？
-                <br />
-                下記のリンクからお気軽にお問い合わせください。
-              </p>
-            </div>
-          </Card>
         </ScrollReveal>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

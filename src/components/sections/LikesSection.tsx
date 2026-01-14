@@ -5,7 +5,7 @@ import Badge from '@/components/ui/Badge'
 import { LIKES } from '@/lib/constants'
 
 const categories = {
-  hobbies: { name: 'Hobbies', color: 'from-blue-500 to-cyan-500' },
+  hobbies: { name: 'Sports', color: 'from-blue-500 to-cyan-500' },
   entertainment: { name: 'Entertainment', color: 'from-green-500 to-emerald-500' },
   food: { name: 'Food & Drink', color: 'from-purple-500 to-pink-500' },
 }

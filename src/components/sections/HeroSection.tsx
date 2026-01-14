@@ -12,13 +12,13 @@ export default function HeroSection() {
       className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20"
     >
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="flex flex-col items-center">
           {/* テキストエリア */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center lg:text-left"
+            className="text-center"
           >
             <motion.p
               initial={{ opacity: 0 }}
@@ -42,16 +42,71 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
-              className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 gradient-text"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 gradient-text"
             >
               {HERO_DATA.title}
             </motion.h2>
+
+            {/* 画像エリア */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.6, duration: 0.8 }}
+              className="flex justify-center mb-8"
+            >
+              <motion.div
+                animate={{
+                  y: [0, -10, 0],
+                }}
+                transition={{
+                  duration: 4,
+                  repeat: Infinity,
+                  ease: 'easeInOut',
+                }}
+                className="relative"
+              >
+                <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center backdrop-blur-sm border-4 border-white/10 overflow-hidden">
+                  <Image
+                    src="/images/kw_avatar.png"
+                    alt={HERO_DATA.name}
+                    width={256}
+                    height={256}
+                    className="object-contain w-full h-full"
+                    priority
+                  />
+                </div>
+
+                {/* 装飾的な要素 */}
+                <motion.div
+                  animate={{
+                    rotate: 360,
+                  }}
+                  transition={{
+                    duration: 20,
+                    repeat: Infinity,
+                    ease: 'linear',
+                  }}
+                  className="absolute -top-2 -right-2 w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 opacity-50 blur-xl"
+                />
+                <motion.div
+                  animate={{
+                    rotate: -360,
+                  }}
+                  transition={{
+                    duration: 15,
+                    repeat: Infinity,
+                    ease: 'linear',
+                  }}
+                  className="absolute -bottom-2 -left-2 w-10 h-10 rounded-full bg-gradient-to-br from-pink-500 to-purple-500 opacity-50 blur-xl"
+                />
+              </motion.div>
+            </motion.div>
 
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
-              className="text-gray-300 text-base sm:text-lg md:text-xl mb-8 max-w-2xl mx-auto lg:mx-0"
+              className="text-gray-300 text-base sm:text-lg md:text-xl mb-8 max-w-2xl mx-auto"
             >
               {HERO_DATA.description}
             </motion.p>
@@ -61,7 +116,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+              className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <button
                 onClick={() => scrollToSection('contact')}
@@ -69,61 +124,6 @@ export default function HeroSection() {
               >
                 連絡する
               </button>
-            </motion.div>
-          </motion.div>
-
-          {/* 画像エリア */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
-            className="flex justify-center lg:justify-end"
-          >
-            <motion.div
-              animate={{
-                y: [0, -20, 0],
-              }}
-              transition={{
-                duration: 6,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              }}
-              className="relative"
-            >
-              <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center backdrop-blur-sm border-4 border-white/10 overflow-hidden">
-                <Image
-                  src="/images/kw_avatar.png"
-                  alt={HERO_DATA.name}
-                  width={384}
-                  height={384}
-                  className="object-contain w-full h-full"
-                  priority
-                />
-              </div>
-
-              {/* 装飾的な要素 */}
-              <motion.div
-                animate={{
-                  rotate: 360,
-                }}
-                transition={{
-                  duration: 20,
-                  repeat: Infinity,
-                  ease: 'linear',
-                }}
-                className="absolute -top-4 -right-4 w-20 h-20 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 opacity-50 blur-xl"
-              />
-              <motion.div
-                animate={{
-                  rotate: -360,
-                }}
-                transition={{
-                  duration: 15,
-                  repeat: Infinity,
-                  ease: 'linear',
-                }}
-                className="absolute -bottom-4 -left-4 w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-purple-500 opacity-50 blur-xl"
-              />
             </motion.div>
           </motion.div>
         </div>
