@@ -17,7 +17,7 @@ export default function TravelSection() {
       globeRef.current.controls().autoRotate = true
       globeRef.current.controls().autoRotateSpeed = 0.5
       // 初期視点を設定
-      globeRef.current.pointOfView({ lat: 35, lng: 139, altitude: 1.8 })
+      globeRef.current.pointOfView({ lat: 35, lng: 139, altitude: 1.2 })
     }
   }, [globeReady])
 
