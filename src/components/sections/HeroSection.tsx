@@ -9,7 +9,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20"
+      className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20"
     >
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -64,14 +64,8 @@ export default function HeroSection() {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <button
-                onClick={() => scrollToSection('projects')}
-                className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105"
-              >
-                作品を見る
-              </button>
-              <button
                 onClick={() => scrollToSection('contact')}
-                className="px-8 py-3 glass glass-hover text-white font-medium rounded-full"
+                className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105"
               >
                 連絡する
               </button>
@@ -133,6 +127,40 @@ export default function HeroSection() {
             </motion.div>
           </motion.div>
         </div>
+
+        {/* スクロールダウンアニメーション */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.2 }}
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        >
+          <motion.div
+            animate={{ y: [0, 10, 0] }}
+            transition={{
+              duration: 1.5,
+              repeat: Infinity,
+              ease: 'easeInOut',
+            }}
+            className="flex flex-col items-center cursor-pointer"
+            onClick={() => scrollToSection('experience')}
+          >
+            <span className="text-gray-400 text-sm mb-2">Scroll</span>
+            <svg
+              className="w-6 h-6 text-gray-400"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"
+              />
+            </svg>
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   )
