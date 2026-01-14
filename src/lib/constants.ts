@@ -76,10 +76,10 @@ export const EXPERIENCES: Experience[] = [
 export const PARTNERS: Partner[] = [
   {
     id: '1',
-    name: 'NOT DESIGN SCHOOL',
-    description: '本気で即戦力デザイナーを目指すデザインスクール。Webデザイン、UIデザイン、グラフィックデザインなど実践的なスキルを習得できます。',
-    url: 'https://notdesignschool.jp/',
-    tags: ['デザインスクール', 'Webデザイン', 'UIデザイン'],
+    name: '株式会社テックビズ',
+    description: 'ITフリーランスエンジニア向けの案件紹介・独立支援サービスを提供。エンジニアのキャリアアップをサポートしています。',
+    url: 'https://techbiz.com/',
+    tags: ['フリーランス', '案件紹介', '独立支援'],
     featured: true,
   },
   {
@@ -92,6 +92,14 @@ export const PARTNERS: Partner[] = [
   },
   {
     id: '3',
+    name: 'NOT DESIGN SCHOOL',
+    description: '本気で即戦力デザイナーを目指すデザインスクール。Webデザイン、UIデザイン、グラフィックデザインなど実践的なスキルを習得できます。',
+    url: 'https://notdesignschool.jp/',
+    tags: ['デザインスクール', 'Webデザイン', 'UIデザイン'],
+    featured: true,
+  },
+  {
+    id: '4',
     name: '合同会社Bremch',
     description: 'ITを活用してエンジニアに「居場所」を提供。勇気・寄り添い・技術と挑戦を大切に、自分らしく挑戦し続けられる環境づくりを行っています。',
     url: 'https://www.bremch.co.jp/',
@@ -99,19 +107,11 @@ export const PARTNERS: Partner[] = [
     featured: true,
   },
   {
-    id: '4',
+    id: '5',
     name: '合同会社STREAMLINE',
     description: '日本に優秀なITエンジニアを増やすことを目指し、キャリアコーチング・資格取得コーチング・副業コーチングを提供しています。',
     url: 'https://streamline0213.co.jp/',
     tags: ['キャリア支援', 'コーチング', 'エンジニア育成'],
-    featured: true,
-  },
-  {
-    id: '5',
-    name: '株式会社テックビズ',
-    description: 'ITフリーランスエンジニア向けの案件紹介・独立支援サービスを提供。エンジニアのキャリアアップをサポートしています。',
-    url: 'https://techbiz.com/',
-    tags: ['フリーランス', '案件紹介', '独立支援'],
     featured: true,
   },
 ]

@@ -17,6 +17,10 @@ export const metadata: Metadata = {
     'Portfolio',
   ],
   authors: [{ name: 'Portfolio' }],
+  icons: {
+    icon: '/kw_favicon.png',
+    apple: '/kw_favicon.png',
+  },
   openGraph: {
     title: 'Portfolio | Frontend Developer',
     description:
