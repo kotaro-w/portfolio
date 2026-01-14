@@ -11,7 +11,7 @@ export const LIKES: Like[] = [
   // Entertainment（エンタメ）
   { name: 'ディズニー巡り｜残すはパリのみ', category: 'entertainment' },
   { name: '洋画鑑賞｜伏線が多い映画が好み', category: 'entertainment' },
-  { name: '家族旅行｜国内外飛び回りたい', category: 'entertainment' },
+  { name: '旅行｜国内外飛び回りたい', category: 'entertainment' },
   { name: 'ポーカー｜大型大会も出場中', category: 'entertainment' },
   { name: '麻雀｜麻雀記事の執筆経験あり', category: 'entertainment' },
 
@@ -74,7 +74,7 @@ export const PARTNERS: Partner[] = [
   {
     id: '1',
     name: '株式会社テックビズ',
-    description: 'ITフリーランスエンジニア向けの案件紹介・独立支援サービスを提供。コンサルタントとしてエンジニアの独立のお手伝いをしています。',
+    description: 'コンサルタントとして、エンジニアの独立から案件参画後までトータルサポートしています。',
     url: 'https://techbiz.com/',
     tags: ['フリーランス', '案件紹介', '独立支援'],
     featured: true,
