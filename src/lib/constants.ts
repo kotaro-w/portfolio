@@ -131,18 +131,15 @@ export const HERO_DATA = {
 export const VISITED_COUNTRIES: VisitedCountry[] = [
   // アジア
   { name: 'Japan', nameJa: '日本', lat: 35.6762, lng: 139.6503 },
-  { name: 'South Korea', nameJa: '韓国', lat: 37.5665, lng: 126.9780 },
-  { name: 'Taiwan', nameJa: '台湾', lat: 25.0330, lng: 121.5654 },
-  { name: 'Thailand', nameJa: 'タイ', lat: 13.7563, lng: 100.5018 },
-  { name: 'Vietnam', nameJa: 'ベトナム', lat: 21.0285, lng: 105.8542 },
-  { name: 'Singapore', nameJa: 'シンガポール', lat: 1.3521, lng: 103.8198 },
+  { name: 'South Korea - Seoul', nameJa: '韓国｜ソウル', lat: 37.5665, lng: 126.9780 },
+  { name: 'China - Shanghai', nameJa: '中国｜上海', lat: 31.2304, lng: 121.4737 },
+  { name: 'Hong Kong', nameJa: '香港', lat: 22.3193, lng: 114.1694 },
+  { name: 'Macau', nameJa: 'マカオ', lat: 22.1987, lng: 113.5439 },
   // ヨーロッパ
-  { name: 'France', nameJa: 'フランス', lat: 48.8566, lng: 2.3522 },
-  { name: 'Italy', nameJa: 'イタリア', lat: 41.9028, lng: 12.4964 },
-  { name: 'Spain', nameJa: 'スペイン', lat: 40.4168, lng: -3.7038 },
-  { name: 'United Kingdom', nameJa: 'イギリス', lat: 51.5074, lng: -0.1278 },
-  // 北米
-  { name: 'United States', nameJa: 'アメリカ', lat: 40.7128, lng: -74.0060 },
-  // オセアニア
-  { name: 'Australia', nameJa: 'オーストラリア', lat: -33.8688, lng: 151.2093 },
+  { name: 'France - Paris', nameJa: 'フランス｜パリ', lat: 48.8566, lng: 2.3522 },
+  { name: 'UK - London', nameJa: 'イギリス｜ロンドン', lat: 51.5074, lng: -0.1278 },
+  // 北米・太平洋
+  { name: 'USA - Hawaii', nameJa: 'アメリカ｜ハワイ', lat: 21.3069, lng: -157.8583 },
+  { name: 'USA - Guam', nameJa: 'アメリカ｜グアム', lat: 13.4443, lng: 144.7937 },
+  { name: 'USA - Florida', nameJa: 'アメリカ｜フロリダ', lat: 25.7617, lng: -80.1918 },
 ]
