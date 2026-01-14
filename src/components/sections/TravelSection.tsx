@@ -71,12 +71,12 @@ export default function TravelSection() {
                   <div className="text-5xl font-bold gradient-text mb-2">
                     {VISITED_COUNTRIES.length}
                   </div>
-                  <div className="text-gray-300">Countries Visited</div>
+                  <div className="text-gray-300">Cities Visited</div>
                 </div>
               </div>
 
               <div className="glass rounded-xl p-6">
-                <h3 className="text-lg font-bold text-white mb-4">Visited Countries</h3>
+                <h3 className="text-lg font-bold text-white mb-4">Visited Cities</h3>
                 <div className="flex flex-wrap gap-2">
                   {VISITED_COUNTRIES.map((country) => (
                     <span
