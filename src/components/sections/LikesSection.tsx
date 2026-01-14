@@ -25,7 +25,7 @@ export default function LikesSection() {
             <span className="gradient-text">Likes</span>
           </h2>
           <p className="text-gray-300 text-center mb-12 max-w-2xl mx-auto">
-            私の好きなものや趣味を紹介します
+            私の好きなものや趣味を紹介します。共通点が一つでも見つかると嬉しいです！
           </p>
         </ScrollReveal>
 

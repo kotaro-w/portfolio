@@ -37,7 +37,7 @@ export default function TravelSection() {
             <span className="gradient-text">Travel</span>
           </h2>
           <p className="text-gray-300 text-center mb-8 max-w-2xl mx-auto">
-            これまでに訪れた国々の記録
+            これまでに訪れた国々の記録。旅行好きの仲間はぜひ、国内外オススメの旅行先を教えてください！
           </p>
         </ScrollReveal>
 

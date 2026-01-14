@@ -2,28 +2,23 @@ import { Like, Experience, Partner, ContactLink, VisitedCountry } from '@/types'
 
 export const LIKES: Like[] = [
   // Hobbies（趣味）
-  { name: 'サッカー', category: 'hobbies' },
-  { name: '旅行', category: 'hobbies' },
-  { name: '読書', category: 'hobbies' },
-  { name: 'キャンプ', category: 'hobbies' },
-  { name: '写真撮影', category: 'hobbies' },
-  { name: 'ランニング', category: 'hobbies' },
+  { name: '硬式テニス｜高校大学', category: 'hobbies' },
+  { name: 'バドミントン｜中学大学', category: 'hobbies' },
+  { name: '卓球｜大学', category: 'hobbies' },
+  { name: '空手｜小学校', category: 'hobbies' },
+  { name: '水泳｜小学校', category: 'hobbies' },
 
   // Entertainment（エンタメ）
-  { name: '映画鑑賞', category: 'entertainment' },
-  { name: '音楽', category: 'entertainment' },
-  { name: 'ゲーム', category: 'entertainment' },
-  { name: 'アニメ', category: 'entertainment' },
-  { name: 'Netflix', category: 'entertainment' },
-  { name: 'YouTube', category: 'entertainment' },
+  { name: 'ディズニー巡り｜残すはパリのみ', category: 'entertainment' },
+  { name: '洋画鑑賞｜伏線が多い映画が好み', category: 'entertainment' },
+  { name: 'ポーカー｜大型大会も出場中', category: 'entertainment' },
 
   // Food & Drink（食べ物）
-  { name: 'コーヒー', category: 'food' },
   { name: 'ラーメン', category: 'food' },
-  { name: '寿司', category: 'food' },
-  { name: 'カレー', category: 'food' },
-  { name: 'クラフトビール', category: 'food' },
-  { name: 'スイーツ', category: 'food' },
+  { name: '肉全般', category: 'food' },
+  { name: '海鮮全般', category: 'food' },
+  { name: 'スイーツ全般', category: 'food' },
+  { name: 'キリン メッツ アルギニンV', category: 'food' },
 ]
 
 export const EXPERIENCES: Experience[] = [
@@ -33,10 +28,10 @@ export const EXPERIENCES: Experience[] = [
     position: 'IT Career Advisor',
     period: '2026/1 -',
     description: [
-      '大規模Webアプリケーションの設計・開発をリード',
-      'Next.js + TypeScriptを用いた高速なSPA構築',
-      'デザインシステムの構築とコンポーネントライブラリの整備',
-      'パフォーマンス最適化により、ページ読み込み速度を40%改善',
+      'フリーランスエンジニア向けのキャリアエージェント',
+      'IT業界のエンジニア向けの案件紹介、営業活動',
+      'iOSアプリ開発講師',
+      'Web/iOSアプリ個人開発者',
     ],
     technologies: ['ITキャリア支援', '転職相談', 'フリーランス案件紹介', 'iOS/Webアプリ開発'],
   },
@@ -59,7 +54,7 @@ export const EXPERIENCES: Experience[] = [
     position: 'Graduate student',
     period: '2019/4 - 2021/3',
     description: [
-      '企業サイトやLPの制作・運用',
+      'アルツハイマー型認知症の研究',
     ],
   },
   {
@@ -68,7 +63,7 @@ export const EXPERIENCES: Experience[] = [
     position: 'Undergraduate student',
     period: '2015/4 - 2019/3',
     description: [
-      '企業サイトやLPの制作・運用',
+      'RNAと遺伝暗号の研究',
     ],
   },
 ]
